@@ -99,4 +99,32 @@
         <label><!-- SendEmail --></label>
         <name>SendEmail</name>
     </quickActions>
+    <customLabels>
+        <label><!-- tt_BaseURL --></label>
+        <name>trlhdtips__tt_BaseURL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_EnterPackageId --></label>
+        <name>trlhdtips__tt_EnterPackageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_InvalidPackageId --></label>
+        <name>trlhdtips__tt_InvalidPackageId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordFail --></label>
+        <name>trlhdtips__tt_ResetPasswordFail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordSuccess --></label>
+        <name>trlhdtips__tt_ResetPasswordSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordTitle --></label>
+        <name>trlhdtips__tt_ResetPasswordTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- tt_ResetPasswordWarning --></label>
+        <name>trlhdtips__tt_ResetPasswordWarning</name>
+    </customLabels>
 </Translations>
