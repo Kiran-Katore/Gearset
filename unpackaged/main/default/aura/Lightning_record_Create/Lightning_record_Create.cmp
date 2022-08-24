@@ -1,0 +1,15 @@
+<aura:component >
+    <aura:attribute name="acc" type="account" default="{'sObjectType':'account'}"/>
+    <lightning:layout>
+        <lightning:layoutItem size="8" padding="around-medium">
+            <lightning:card title="Account Create" class="slds-p-horizontal_small">
+                <lightning:input type="text" value="{!v.acc.Name}" label="Name"/>
+                <lightning:input type="text" label="Phone" value="{!v.acc.Phone}"/>
+                <aura:set attribute="actions">
+                    <lightning:button label="Save" variant="success" onclick="{!c.saveRec}"/>
+                    <lightning:button label="Cancel" variant="destructive"/>
+                </aura:set>
+            </lightning:card>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
